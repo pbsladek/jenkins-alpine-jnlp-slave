@@ -5,8 +5,8 @@ ARG VCS_REF
 ARG SCHEMA_VERSION
 
 LABEL maintainer="Paul Sladek" \
-  org.label-schema.name="Jenkins JNLP Slave" \
-  org.label-schema.description="Jenkins JNLP Slave" \
+  org.label-schema.name="Jenkins alpine jnlp slave" \
+  org.label-schema.description="Jenkins alpine jnlp slave" \
   org.label-schema.usage="/README.md" \
   org.label-schema.url="github" \
   org.label-schema.vcs-url="github" \
