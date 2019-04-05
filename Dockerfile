@@ -8,8 +8,8 @@ LABEL maintainer="Paul Sladek" \
   org.label-schema.name="Jenkins alpine jnlp slave" \
   org.label-schema.description="Jenkins alpine jnlp slave" \
   org.label-schema.usage="/README.md" \
-  org.label-schema.url="github" \
-  org.label-schema.vcs-url="github" \
+  org.label-schema.url="https://github.com/pbsladek/jenkins-alpine-jnlp-slave" \
+  org.label-schema.vcs-url="git@github.com:pbsladek/jenkins-alpine-jnlp-slave.git" \
   org.label-schema.build-date=$BUILD_DATE \
   org.label-schema.vcs-ref=$VCS_REF \
   org.label-schema.schema-version=$SCHEMA_VERSION
@@ -50,7 +50,7 @@ RUN apk add gradle=4.10.3-r0 \
   junit=4.12-r0
 
 # Database
-Run apk add mysql=10.3.13-r0 \
+RUN apk add mysql=10.3.13-r0 \
   mysql-client=10.3.13-r0 \
   redis=4.0.12-r0 \
   mongodb=4.0.5-r0

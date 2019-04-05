@@ -1,6 +1,10 @@
 Jenkins Agent Apline Docker Image with Tools
 ===
 
+[![Docker Stars](https://img.shields.io/docker/stars/jenkins/jnlp-slave.svg)](https://hub.docker.com/r/pwbsladek/jenkins-alpine-jnlp-slave)
+[![Docker Pulls](https://img.shields.io/docker/pulls/jenkins/jnlp-slave.svg)](https://hub.docker.com/r/pwbsladek/jenkins-alpine-jnlp-slave)
+[![Docker Automated build](https://img.shields.io/docker/automated/jenkins/jnlp-slave.svg)](https://hub.docker.com/r/pwbsladek/jenkins-alpine-jnlp-slave)
+
 This is a base image for Docker, which includes OpenJDK 8 and the Jenkins agent executable (slave.jar).
 This executable is an instance of the [Jenkins Remoting library](https://github.com/jenkinsci/remoting).
 
