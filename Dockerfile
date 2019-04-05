@@ -16,6 +16,7 @@ LABEL maintainer="Paul Sladek" \
 
 USER root
 
+# Simple tools
 RUN apk add --update unzip=6.0-r4 \
   wget=1.20.1-r0 \
   curl=7.64.0-r1 \
