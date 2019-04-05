@@ -1,4 +1,4 @@
-Jenkins Agent Docker image
+Jenkins Agent Apline Docker Image with Tools
 ===
 
 This is a base image for Docker, which includes OpenJDK 8 and the Jenkins agent executable (slave.jar).
